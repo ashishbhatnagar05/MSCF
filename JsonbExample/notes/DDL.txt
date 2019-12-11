@@ -1,0 +1,13 @@
+CREATE TABLE public.address
+(
+    "SUBR_MEMB_SKEY" character varying(10) NOT NULL,
+    "lifeId" character varying(10),
+    "sourceSystemMemberId" character varying(12) NOT NULL,
+    "otherAddresses" jsonb,
+    "homeAddress" jsonb,
+    PRIMARY KEY ("SUBR_MEMB_SKEY")
+);
+
+ALTER TABLE public.address
+    OWNER to postgres;
+

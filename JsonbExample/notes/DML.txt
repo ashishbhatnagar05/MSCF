@@ -1,0 +1,3 @@
+INSERT INTO public.address(
+	"SUBR_MEMB_SKEY", "lifeId", "sourceSystemMemberId", "otherAddresses", "homeAddress")
+	VALUES (1, 1, 1,'{"address":[{"addressId":"1","name":"ashish","type":"OFFICE2"},{"addressId":"2","name":"naman","type":"OFFICE1"}]}','{"address":[{" addressId ":" 1 "," name ":" vishal "," type ":" HOME "}]}');
